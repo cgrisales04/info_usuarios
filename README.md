@@ -20,6 +20,7 @@ git clone https://github.com/cgrisales04/info_usuarios.git
 POST - Agregar usuarios
 ```sh
 http://localhost:8383/employees/SrvlUsuarios
+https://infousuarios.herokuapp.com/SrvlUsuarios
 ```
 
 Body - Parametros
@@ -38,6 +39,7 @@ Body - Parametros
 PUT - Editar usuarios
 ```sh
 http://localhost:8383/employees/SrvlUsuarios?id_usuario=1
+https://infousuarios.herokuapp.com/SrvlUsuarios?id_usuario=1
 ```
 
 Body - Parametros
@@ -56,22 +58,25 @@ Body - Parametros
 GET - Obtener un solo usuario
 ```sh
 http://localhost:8383/employees/SrvlUsuarios?id_usuario=1
+https://infousuarios.herokuapp.com/SrvlUsuarios?id_usuario=1
 ```
 
 GET - Obtener todos los usuarios
 ```sh
 http://localhost:8383/employees/SrvlUsuarios
+https://infousuarios.herokuapp.com/SrvlUsuarios
 ```
 
 DELETE - Eliminar usuarios
 ```sh
 http://localhost:8383/employees/SrvlUsuarios?id_usuario=1
+https://infousuarios.herokuapp.com/SrvlUsuarios?id_usuario=1
 ```
 
 
 ## Devs
 
-Cristian Grisales Venitez
+Cristian Grisales Venitez - 
 Yaider Cordoba Cordoba
 
 [Java]: <https://www.java.com/es/>
